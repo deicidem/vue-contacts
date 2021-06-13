@@ -1,9 +1,9 @@
 <template>
 <div>
   <br>
-  <router-link to="/contacts/">Назад</router-link>
+  <router-link to="/contacts/">На главную</router-link>
   <h1 class="title">Информация</h1>
-  <button @click="goBack(id); keyInc++" :disabled="goBackDisabled" class="btn btn-dark">Назад</button>
+  <button @click="goBack(id); keyInc++" :disabled="goBackDisabled" class="btn btn-dark">Шаг назад</button>
   <hr>
   <ul class="list-group">
     <!-- Выводим список полей -->

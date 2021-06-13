@@ -34,7 +34,7 @@ export const store = new Vuex.Store({
   mutations: {
     add(state, value) {
       // Добавляем пустой контанкт в массив
-      state.list.push({id: state.cnt, info: []});
+      state.list.push({id: state.cnt, info: [], infoPrev: []});
       // Добавляем поле "Имя"
       state.list[state.cnt].info.push({title: "Имя", value: value});
       // Увеличиваем счетчик
